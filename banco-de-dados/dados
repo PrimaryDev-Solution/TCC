@@ -1,0 +1,64 @@
+EMPRESAS:
+- ID
+- Nome
+- CNPJ
+- Email
+- Senha
+- Setor
+
+ENDEREÇOS_EMPRESAS:
+- ID
+- Rua
+- Numero
+- Bairro
+- Cidade
+- UF
+- Complemento
+- País
+
+FUNCIONARIOS:
+- ID
+- Nome
+- CPF
+- Email
+- Senha
+- Setor
+- Tipo de usuario (adm, usuario) - por padrão "usuario"
+
+
+PRODUTOS:
+- ID
+- Nome
+- Tipo
+- CA
+- Validade CA
+
+ESTOQUES:
+- ID
+- Codigo
+- Capacidade Maxima
+- Status (livre / ocupado) - por padrao "livre"
+- Descrição
+
+LOTE:
+- ID
+- Quantidade
+- Data de entrada
+- Validade
+- Fabricação
+
+MOVIMENTAÇÂO:
+- ID
+- Tipo (entrada / saida)
+- Quantidade
+- Data
+
+empresas 1 - n endereços
+empresas 1 - n funcionarios
+empresa 1 - n estoques
+empresas 1 - n produtos
+funcionario n - 1 endereços
+produtos 1 - n lotes
+lotes 1 - n movimentações
+estoque 1 - n lotes
+estoques 1 - n movimentações
