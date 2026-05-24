@@ -57,8 +57,8 @@ empresas 1 - n endereços
 empresas 1 - n funcionarios
 empresa 1 - n estoques
 empresas 1 - n produtos
-funcionario n - 1 endereços
+endereços 1 - n funcionario
 produtos 1 - n lotes
 lotes 1 - n movimentações
 estoque 1 - n lotes
-estoques 1 - n movimentações
+estoques 1 - n movimentações 
